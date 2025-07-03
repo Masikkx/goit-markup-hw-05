@@ -388,6 +388,9 @@ h1 {
   margin-bottom: 16px;
   display: inline-block;
 }
+.page-footer .container {
+  display: flex;
+}
 .page-footer .logo-span {
   color: #f4f4fd;
 }
@@ -656,20 +659,23 @@ h1 {
 }
 .comment-wrapper {
 }
+.textarea-wrapper {
+  margin-bottom: 16px;
+}
+
 .textarea {
   height: 120px;
   padding: 8px 16px;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 16px;
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
-
+  color: rgba(46, 47, 66, 0.4);
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #000;
 }
@@ -691,7 +697,7 @@ h1 {
 }
 .input-accept {
 }
-.input-accept:checked + .checkbox-span-icon {
+.input-accept:checked + .accept-label .checkbox-span-icon {
   background-color: #404bbf;
   border: 1px solid #404bbf;
 }
@@ -701,20 +707,25 @@ h1 {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #f4f4fd;
 }
-
+.accept-wrapper {
+  margin-bottom: 24px;
+}
 .accept-label {
   display: flex;
   gap: 8px;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin: auto 0;
