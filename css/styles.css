@@ -382,8 +382,6 @@ h1 {
   align-items: flex-start;
 }
 
-.page-footer .container:first-child {
-}
 .page-footer .logo {
   margin-bottom: 16px;
   display: inline-block;
@@ -429,10 +427,7 @@ h1 {
 .footer-info-wrapper {
   margin-right: 120px;
 }
-.footer-subscribe {
-}
-.subscribe-form {
-}
+
 .footer-email-label {
   display: block;
   font-weight: 500;
@@ -609,6 +604,7 @@ h1 {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
 }
 .input:active,
 .input:focus {
@@ -618,8 +614,7 @@ h1 {
 .input-wrapper {
   position: relative;
 }
-.name-wrapper {
-}
+
 .form-input-label {
   display: block;
   margin-bottom: 4px;
@@ -647,18 +642,6 @@ h1 {
 .input:active + .form-input-icon {
   fill: #4d5ae5;
 }
-.input-name {
-}
-.phone-wrapper {
-}
-.input-phone {
-}
-.email-wrapper {
-}
-.input-email {
-}
-.comment-wrapper {
-}
 .textarea-wrapper {
   margin-bottom: 16px;
 }
@@ -677,7 +660,6 @@ h1 {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #000;
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -694,16 +676,14 @@ h1 {
   outline: transparent;
   color: #000;
 }
-.input-wrapper {
-}
+
 .accept-wrapper {
   display: flex;
   gap: 8px;
   align-items: center;
   margin-bottom: 24px;
 }
-.input-accept {
-}
+
 .input-accept:checked + .accept-label .checkbox-span-icon {
   background-color: #404bbf;
   border: none;
